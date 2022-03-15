@@ -25,6 +25,7 @@
 
 # IntelliJ
 out/
+.idea
 
 # SonarLint plugin
 .idea/sonarlint/
