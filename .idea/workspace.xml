@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f36d219-2970-4a2f-9965-316698885590" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,8 +54,8 @@
       <recent name="co.com.sofka.app" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BasicCalculatorTest.severalSums">
-    <configuration name="BasicCalculatorTest.severalSums" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BasicCalculatorTest">
+    <configuration name="BasicCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my-demo" />
       <extension name="coverage">
         <pattern>
@@ -66,13 +65,28 @@
       </extension>
       <option name="PACKAGE_NAME" value="co.com.sofka.app" />
       <option name="MAIN_CLASS_NAME" value="co.com.sofka.app.BasicCalculatorTest" />
-      <option name="METHOD_NAME" value="severalSums(java.lang.Long,java.lang.Long,java.lang.Long)" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicCalculatorTest.div" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.sofka.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.sofka.app" />
+      <option name="MAIN_CLASS_NAME" value="co.com.sofka.app.BasicCalculatorTest" />
+      <option name="METHOD_NAME" value="div" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicCalculatorTest.sum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BasicCalculatorTest.severalDiv" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my-demo" />
       <extension name="coverage">
         <pattern>
@@ -82,7 +96,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="co.com.sofka.app" />
       <option name="MAIN_CLASS_NAME" value="co.com.sofka.app.BasicCalculatorTest" />
-      <option name="METHOD_NAME" value="sum" />
+      <option name="METHOD_NAME" value="severalDiv(java.lang.Long,java.lang.Long,java.lang.Long)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicCalculatorTest.severalMulti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.sofka.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.sofka.app" />
+      <option name="MAIN_CLASS_NAME" value="co.com.sofka.app.BasicCalculatorTest" />
+      <option name="METHOD_NAME" value="severalMulti(java.lang.Long,java.lang.Long,java.lang.Long)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicCalculatorTest.severalSub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.sofka.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.sofka.app" />
+      <option name="MAIN_CLASS_NAME" value="co.com.sofka.app.BasicCalculatorTest" />
+      <option name="METHOD_NAME" value="severalSub(java.lang.Long,java.lang.Long,java.lang.Long)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,8 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BasicCalculatorTest.severalSums" />
-        <item itemvalue="JUnit.BasicCalculatorTest.sum" />
+        <item itemvalue="JUnit.BasicCalculatorTest" />
+        <item itemvalue="JUnit.BasicCalculatorTest.severalDiv" />
+        <item itemvalue="JUnit.BasicCalculatorTest.severalMulti" />
+        <item itemvalue="JUnit.BasicCalculatorTest.severalSub" />
+        <item itemvalue="JUnit.BasicCalculatorTest.div" />
       </list>
     </recent_temporary>
   </component>

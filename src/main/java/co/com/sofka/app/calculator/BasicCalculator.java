@@ -11,16 +11,16 @@ public class BasicCalculator {
         return number1 + number2;
     }
     public Long sub(Long number1, Long number2) {
-        logger.info( "Summing {} + {}", number1, number2 );
+        logger.info( "Subtracting {} - {}", number1, number2 );
         return number1 - number2;
     }
     public Long multi(Long number1, Long number2) {
-        logger.info( "Summing {} + {}", number1, number2 );
+        logger.info( "Multiplying  {} * {}", number1, number2 );
         return number1 * number2;
     }
     public Long div(Long number1, Long number2) {
         if(number2 == 0) throw new RuntimeException("No se puede dividir por cero");
-        logger.info( "Summing {} + {}", number1, number2 );
+        logger.info( "Dividing {} / {}", number1, number2 );
         return number1 / number2;
     }
 }
